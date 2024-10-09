@@ -28,7 +28,7 @@ func ValidateMessageStreamRequest(req *MessageRequest) error {
 	}
 
 	if !req.Model.IsMessageCompatible() {
-		return fmt.Errorf("model %s is not compatible with the messagestream endpoint", req.Model)
+		return fmt.Errorf("modelsss %s is not really  compatible with the messagestream endpoint", req.Model)
 	}
 
 	if !req.Model.IsImageCompatible() && req.ContainsImageContent() {
